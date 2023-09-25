@@ -2,12 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>NotesTest</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notizen</title>
+    <link rel="stylesheet" href="styles.css"><!-- Verknüpfung zur CSS-Datei -->
 </head>
 <body>
-    <h1> Der Server läuft</h1>
-    <p>YoYoYoyYoyo</p>
-    <img src="content/dog.gif" style="width:250px;height:250px;">
+    <div id="notizen">
+        <h1>Notizen</h1>
+        <!-- Eingabefeld für Notizen -->
+        <textarea id="noteInput" placeholder="Neue Notiz"></textarea> <!-- Wo die Notiz reinkommt--><br>
+        <button onclick="addNote()">Hinzufügen</button> <!-- Notiz hinzufügen-Button -->
+        <ul id="noteList"></ul> <!-- Liste für Notizen -->
+    </div>
+    <script src="index.js"></script> <!-- Verknüpfung zur JavaScript-Datei -->
 </body>
 </html>

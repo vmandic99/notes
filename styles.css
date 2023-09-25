@@ -1,0 +1,48 @@
+body { 
+    background-image: url("content/background.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea{
+    background-color: rgb(221, 232, 148);
+}
+
+#loeschen{
+    background-color: red;
+    color: white;
+    border: 1px;
+    font-weight: bold;
+    margin-right: 5px;
+    font-size: 10px;
+    border-radius: 30%;
+    margin-left: auto; 
+}
+
+button{
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+  
+li {
+    margin-bottom: 10px;
+    align-items: center;
+    list-style-position:inside;
+    border: 1px solid rgba(0, 0, 0, 0.139);
+    background-color:  rgb(221, 232, 148);
+    display: flex; /* für Kinderelemente*/
+    /* float: right; makes the notes start from right as a row */
+}
+
+ul {
+    padding: 0;
+}
+  

@@ -35,10 +35,10 @@ h1{
 li {
     margin-bottom: 10px;
     align-items: center;
-    list-style-position:inside;
+    list-style-position:inside; /* Bullet Points gehen rein */
     border: 1px solid rgba(0, 0, 0, 0.139);
     background-color:  rgb(221, 232, 148);
-    display: flex; /* für Kinderelemente*/
+    display: flex; /* für Kinderelemente dass deren Groesse angepasst werden*/
     /* float: right; makes the notes start from right as a row */
 }
 

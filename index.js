@@ -1,5 +1,5 @@
-
-const noteInput = document.getElementById('noteInput'); // Eingabefeld
+//Document ist globale Variable, API 
+const noteInput = document.getElementById('noteInput'); // Eingabefeld, ich möchte einen Pointer auf bestimmtes Element
 const noteList = document.getElementById('noteList'); // Liste für Notizen
 
 function addNote() {
